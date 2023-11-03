@@ -27,19 +27,19 @@
     <VendorTag>tunning.back.portrait.normal.picturesize</VendorTag>
     <Type>Int32</Type>
     <Count>2</Count>
-    <Value>4608*3456</Value>
+    <Value>4000*3000</Value>
   </Feature>
   <Feature>
     <VendorTag>high.picturesize</VendorTag>
     <Type>Int32</Type>
     <Count>2</Count>
-    <Value>9248*6936</Value>
+    <Value>8000*6000</Value>
   </Feature>
   <Feature>
     <VendorTag>high.mfnr.picturesize</VendorTag>
     <Type>Int32</Type>
     <Count>2</Count>
-    <Value>4608*3456</Value>
+    <Value>4032*3008</Value>
   </Feature>
   <Feature>
     <VendorTag>feature.high.definition.support</VendorTag>
