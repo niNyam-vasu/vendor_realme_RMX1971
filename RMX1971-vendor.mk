@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1971/proprietary/odm/lib/libbsproxy.so:$(TARGET_COPY_OUT_ODM)/lib/libbsproxy.so \
     vendor/realme/RMX1971/proprietary/odm/lib/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G2.so \
     vendor/realme/RMX1971/proprietary/odm/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib/libgf_hal_G3.so \
+    vendor/realme/RMX1971/proprietary/odm/lib/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib/oplus.sensors.ssc.so \
     vendor/realme/RMX1971/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/RMX1971/proprietary/odm/lib/vendor.oplus.hardware.biometrics.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.biometrics.fingerprintservice@1.0.so \
     vendor/realme/RMX1971/proprietary/odm/lib64/anc.hal.so:$(TARGET_COPY_OUT_ODM)/lib64/anc.hal.so \
@@ -68,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1971/proprietary/odm/lib64/libswscale.so:$(TARGET_COPY_OUT_ODM)/lib64/libswscale.so \
     vendor/realme/RMX1971/proprietary/odm/lib64/libwvhidl.so:$(TARGET_COPY_OUT_ODM)/lib64/libwvhidl.so \
     vendor/realme/RMX1971/proprietary/odm/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib64/mediadrm/libwvdrmengine.so \
+    vendor/realme/RMX1971/proprietary/odm/lib64/oplus.sensors.ssc.so:$(TARGET_COPY_OUT_ODM)/lib64/oplus.sensors.ssc.so \
     vendor/realme/RMX1971/proprietary/odm/lib64/vendor.oplus.hardware.appradio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.appradio@1.0.so \
     vendor/realme/RMX1971/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so \
     vendor/realme/RMX1971/proprietary/odm/lib64/vendor.oplus.hardware.biometrics.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.biometrics.fingerprintservice@1.0.so \
@@ -1388,9 +1390,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1971/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    SoterService \
     CneApp \
     IWlanService \
+    SoterService \
     TimeService \
     PowerOffAlarm \
     ImsRcsService \
